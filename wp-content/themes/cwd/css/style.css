@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #181a1b !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	text-align: center;
+}
+section .container {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.section-title {
+    border-bottom: thin solid #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-title > p {
+	font-size: 20px;
+	padding: 10px;
+	font-weight: lighter;
+	color: #fbd546;
+}
+.section-title > h1 {
+	color: #fff;
+}
+
+/**
+ About
+**/
+.about .about-text > h3 {
+	color: #fbd546;
+}
+.about .about-text > p {
+	font-size: 16px;
+	color: #fff;
+}
+
+/**
+ Services
+**/
+.services {
+	background-color: #fece1a !important;
+}
+.services .section-title {
+	border-bottom: thin solid #000 !important;
+}
+.services .section-title > * {
+	color: #181a1b !important;
+}
+.services .container .service-offered-wrapper {
+	border: thin solid #000;
+	height: 300px;
+}
+
+/**
+ Portfolios
+**/
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios + .filter-portfolios {
+	margin-left: 6px;
+}
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios {
+	border: thin solid #fff;	
+}
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios > a {
+	color: #fff;
+	padding: 6px 20px;
+	border-radius: 0;
+}
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios.active > a,
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios > a:hover,
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios > a:active,
+.portfolios .portfolios-wrapper > .nav-pills > .filter-portfolios > a:focus {
+	background-color: #fff;
+	color: #000;
+}
+.portfolios .portfolios-wrapper > .portfolios-item-wrapper {
+	margin-top: 15px;
+}
+.portfolios .portfolios-wrapper > .portfolios-item-wrapper > .portfolios-item {
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+.portfolios .portfolios-wrapper > .portfolios-item-wrapper > .portfolios-item > ._portfolios {
+	border: thin solid #fff;
+	height: 300px;
+}
+
+/**
+ Portfolios
+**/
+.technology {
+	background-color: #fece1a !important;
+	background: url('../slider/tech-news.png') no-repeat center;
+	padding-bottom: 70px;
+}
+.technology-newsletter .section-subtitle {
+	border-bottom: thin solid #a1aab7;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.technology-newsletter .section-subtitle h3 {
+	margin-bottom: 15px;
+	color: #fece1a;
+}
